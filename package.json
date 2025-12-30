@@ -1,0 +1,16 @@
+{
+    "name": "pastebin-lite",
+    "version": "1.0.0",
+    "main": "server.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.19.0",
+        "helmet": "^7.1.0",
+        "ioredis": "^5.4.1",
+        "uuid": "^9.0.1"
+    }
+}
